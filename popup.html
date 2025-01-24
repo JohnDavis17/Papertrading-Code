@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photon Ultra Advanced Paper Trading v2.0</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <script src="popup.js" defer></script>
+  <script src="charts.js" defer></script>
+  <script src="ai.js" defer></script>
+  <script src="worker.js" defer></script>
+  <script src="dataAnalysis.js" defer></script>
+  <script src="userInterface.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Ultra Advanced Photon Paper Trading v2.0</h1>
+    <div id="userInfo"></div>
+    <div id="serverStatus"></div>
+  </header>
+  <nav>
+    <button id="dashboardBtn">Dashboard</button>
+    <button id="strategyBtn">Strategies</button>
+    <button id="aiBtn">AI Optimization</button>
+    <button id="reportsBtn">Reports</button>
+    <button id="settingsBtn">Settings</button>
+    <button id="logoutBtn">Logout</button>
+  </nav>
+  <main id="mainContent">
+    <div id="status"></div>
+    <div id="tradingView">
+      <h2>Live Trading View</h2>
+      <div id="liveData">
+        <div id="currentPrice"></div>
+        <div id="volume"></div>
+        <div id="lastTrade"></div>
+      </div>
+      <canvas id="liveChart"></canvas>
+    </div>
+    <div id="strategyManagement">
+      <h2>Strategy Management</h2>
+      <div id="strategyList"></div>
+      <button id="newStrategy">Create New Strategy</button>
+      <button id="editStrategy">Edit Strategy</button>
+      <button id="backtestStrategy">Backtest Strategy</button>
+    </div>
+    <div id="aiOptimization">
+      <h2>AI Optimization</h2>
+      <div id="aiStatus"></div>
+      <div id="aiControls">
+        <button id="runAI">Run AI Optimization</button>
+        <button id="stopAI">Stop AI</button>
+        <select id="aiModelSelect">
+          <option value="simple">Simple Model</option>
+          <option value="complex">Complex Model</option>
+        </select>
+      </div>
+      <canvas id="aiPerformanceChart"></canvas>
+      <div id="aiResults"></div>
+    </div>
+    <div id="reports">
+      <h2>Reports</h2>
+      <div id="reportList"></div>
+      <button id="generateReport">Generate Report</button>
+      <canvas id="reportChart"></canvas>
+    </div>
+    <div id="settings">
+      <h2>Settings</h2>
+      <div id="apiSettings">
+        <input type="text" id="apiKey" placeholder="API Key">
+        <button id="saveApiKey">Save</button>
+      </div>
+      <div id="notificationSettings">
+        <input type="checkbox" id="enableNotifications"> Enable Notifications
+      </div>
+      <div id="visualSettings">
+        <label for="themeSelect">Theme:</label>
+        <select id="themeSelect">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
