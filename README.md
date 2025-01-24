@@ -1,5 +1,5 @@
-Photon Memecoin Paper Trading Utility V2.0
-Welcome to the GitHub repository for the "Photon Paper Trading Utility V2.0" Chrome extension! This extension transforms your browser into a sophisticated trading simulator, integrating seamlessly with Photon's trading platform. 
+LuminTrade Papertrading Extension V2.0
+Welcome to the GitHub repository for the "LuminTrade Papertrading Extension V2.0"! This extension transforms your browser into a sophisticated trading simulator, integrating seamlessly with Photon's trading platform. 
 Here's what you'll find in this repository:
 
 Features
